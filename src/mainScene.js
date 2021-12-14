@@ -7,7 +7,7 @@ export default class MainScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.atlas('atlas', `src/atlas/atlas-@${assetsDPR}.png`, `src/atlas/atlas-@${assetsDPR}.json`)
+    this.load.atlas('atlas', `atlas/atlas-@${assetsDPR}.png`, `atlas/atlas-@${assetsDPR}.json`)
   }
 
   create() {

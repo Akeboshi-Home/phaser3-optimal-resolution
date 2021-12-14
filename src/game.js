@@ -1,4 +1,5 @@
-import MainScene from './mainScene.js'
+import "phaser";
+import MainScene from './mainScene.js';
 
 const roundHalf = num => Math.round(num * 2) / 2
 
@@ -19,7 +20,7 @@ const { width, height } = window.screen
 const WIDTH = Math.round(Math.max(width, height) * DPR)
 const HEIGHT = Math.round(Math.min(width, height) * DPR)
 
-// Need a fixed screen ratio for your game
+// Need a fixed screen ratio for your game 游戏需要固定的屏幕比例
 // because it is to hard to make it responsive?
 // Simply lock the screen ratio by adapting the code as follow.
 // (On a desktop PC it should show all assets in @4)
